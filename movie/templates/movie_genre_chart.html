@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Genre Chart</title>
+    <!-- Agrega aquí cualquier enlace a archivos CSS o scripts JavaScript que necesites -->
+</head>
+<body>
+    <div class="container">
+        <h2>Movie Genre Chart</h2>
+        <!-- Aquí puedes mostrar tu gráfico de género de películas -->
+        <img src="data:image/png;base64,{{ chart }}" alt="Movie Genre Chart">
+    </div>
+</body>
+</html>
+{% endblock content %}
